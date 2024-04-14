@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="main.css" type="text/CSS" rel="stylesheet" />
+    <title>健康自我聲明表</title>
+    
+  </head>
+  <body>
+      <!--表單標題開始-->
+    <h1 class="text-center mt-5" style=color:darkorchid;>健康自我聲明表</h1>
+    <h5 class="text-center" style=color:yellow;>麻煩各位弟兄姊妹、朋友, 若會來教會小組、聚會或任何團聚活動, 需事先填寫「健康自我聲明表」，以便日後政府可以查閱並做出正確的病例判斷。非常感謝您的配合 </h5>
+    <div class="container mt-5">
+    
+     <!-- 表單返回頁，記得在表單加「 target='returnWin' 」 -->
+     <iframe name="returnWin" style="display: none;" onload="this.onload=function(){window.location='ok1.html'}"></iframe>
+        
+        <!--表單問題中的傳送碼-->
+        <form target='returnWin' role="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScaGyqgIl6ygieLckgoo01hg8XUVXO170JPF1_d_52WqzQ5Nw/formResponse" method="post" id="myForm">
+            <div class="row">  
+            <!--姓名--> 
+              <div class="col-sm-6">
+                    <div class="form-group">
+                        <label><span class="title">姓名</span><span class="text-primary">*(請填您的姓名)</span></label>
+                        <input type="text" class="form-control" name="entry.28180194" id="28180194" maxlength="6" />
+                    </div>
+                </div>
+                <!--區--> 
+              <div class="col-sm-6">
+                <div class="form-group">
+                    <label><span class="title">哪一區</span><span class="text-primary">*(請填您的姓名)</span></label>
+                    <input type="text" class="form-control" name="entry.28180194" id="28180194" maxlength="6" />
+                </div>
+            </div>
+             <!--電話--> 
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label><span class="title">電話</span><span class="text-primary">*(請填連絡電話)</span></label>
+                        <input type="tel" class="form-control" name="entry.286432827" id="286432827" placeholder ="格式０９ＸＸＸＸＸＸＸＸ"  minlength="7" maxlength="14">
+                    </div>
+                </div>
+            <!--現居地--> 
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label><span class="title">地址</span><span class="text-primary">*(請填聯絡處)</span></label>
+                    <input type="text" class="form-control" name="entry.1819810171" id="1819810171" maxlength="30" />
+                </div>
+            </div>   <hr>
+            <!--是否有感冒-->              
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>您目前是否有任何感冒的症狀?<span class="text-danger">*</span></label>
+                        <select name="entry.2111894387" id="2111894387" value="" class="form-control" size="1">            
+                         
+                            <option value="否">否</option>    
+                            <option value="是">是</option>                        
+                        </select>
+                    </div>
+                </div>
+
+                 <!--是否有感冒-->              
+                 <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>您這14天內是否曾接觸過任何從國外回來的家人或朋友?<span class="text-danger">*</span></label>
+                        <select name="entry.1009225167" id="1009225167" value="" class="form-control" size="1">              
+                            <option value="否">否</option> 
+                            <option value="是">是</option>
+                                                    
+                        </select>
+                    </div>
+                </div>
+            
+            
+                       
+          
+                <div class="col-sm-6">  
+                    <div class="form-group">
+                    <!-- 備註 -->
+                    <div class="form-group">
+                    <label class="control-label">如有, 請說明您跟他/她的關係 (例如:母親、兄弟、朋友)</label>
+                    <textarea class="form-control" rows="2" name="entry.1911089645" id="1911089645"></textarea>
+                    </div>
+                </div>
+            </div>
+
+
+            
+                <!--是否有感冒-->              
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>您這14天是否曾接觸過任何患有肺炎或呼吸系統疾病的病人?<span class="text-danger">*</span></label>
+                        <select name="entry.962851051" id="962851051" value="" class="form-control" size="1">              
+                            <option value="否">否</option> 
+                            <option value="是">是</option>
+                                                   
+                        </select>
+                    </div>
+                </div>
+
+
+          
+            
+                <div class="col-sm-6">  
+                    <div class="form-group">
+
+                    <!-- 備註 -->
+                    <div class="form-group">
+                    <label class="control-label">如有, 請說明您跟他/她的關係 (例如:母親、兄弟、朋友)</label>
+                    <textarea class="form-control" rows="2" name="entry.1640235864" id="1640235864"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center pb-3">
+                <button type="submit" class="btn btn-primary">送出</button>
+              
+            </div>
+
+        </form>
+    </div>
+
+    <!--表單標題結束-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+    <!-- 表單驗證 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+  
+    <script>
+        $(function(){
+            $("#myForm").validate({
+                submitHandler: function(form){
+                    form.submit();
+                },
+                rules: {
+                    'entry.28180194' : {
+                        required: true
+                     },
+                     'entry.286432827':{
+                        required:true,
+                        
+                    },'entry.1819810171' :{
+                        required:true,
+                        
+                    }, 'entry.2111894387':{
+                        required:true,
+                    }, 'entry.1009225167':{
+                        required:true,
+                       
+                        
+                    }, 'entry.962851051':{
+                        required:true,
+                        
+                    
+
+                    }
+                },  
+                     
+                
+                messages: {
+                    'entry.28180194' : {
+            required: "必填"
+          },
+          'entry.286432827' : {
+            required: "必填"
+          },
+          'entry.1819810171' : {
+            required: "必填"
+        },
+          'entry.2111894387' : {
+            required: "必填"
+        },
+          'entry.1009225167' : {
+            required: "必填"
+        },
+          'entry.962851051' : {
+            required: "必填"
+                    }
+                }
+            });
+
+        });
+
+    </script>
+    </body>
+</html>
