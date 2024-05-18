@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main1.css" type="text/CSS" rel="stylesheet" />
+    <title>敬拜人數統計</title>
+</head>
+
+<body>
+
+    <h2 class="text-center mt-5" style=color:red;>教會主日線上敬拜統計人數表</h2>
+
+    <H4 class="text-center" style=color:blue;>誠摯地邀請您能來參加實體的聚會, 但如果不能參加實體聚會, 也歡迎使用線上聚會, 不過需要您配合登記, 方便教會統計當日崇拜的聚會人數,
+        感謝您的配合. 
+    </H4>
+
+    <H3 style=color:green><B>注意事項</B></H3>
+    <H4 style=color:darkblue>
+        <ol type="1">
+            <li>填寫人數以一個螢幕為單位, 不論是電視、電腦或手機</li>
+            <Li>大人、小孩要分開填寫</Li>
+        </ol>
+
+        <marquee direction="right" height="100" scrollamount="5" behavior="alternate">
+            <font font size="5" style="color:rgb(95, 16, 241)">煩請抽空幫忙登記一下, 謝謝 </font><img src="img/thanks.jpg"
+                width=50px>
+        </marquee>
+
+
+        <div class="container mt-5">
+
+            <iframe name="returnWin" style="display: none;"
+                onload="this.onload=function(){window.location='ok1.html'}"></iframe>
+
+            <!--表單問題中的傳送碼-->
+            <form target='returnWin' role="form"
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfQo1f9z4HV9To2pe1OmEJEbfMMlEcQ9_lWPkfOaEXnTwqbNg/formResponse"
+                method="post" id="myForm">
+                <div class="row">
+                    <!--小組-->
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label>小組<span class="text-danger">*</span></label>
+                            <select name="entry.2145471606" id="22145471606" value="" class="form-control" size="1">
+                                <option value="長青小組">長青小組</option>
+                                <option value="良善小組">良善小組</option>
+                                <option value="百合小組">百合小組</option>
+                                <option value="得勝小組">得勝小組</option>
+                                <option value="喜樂小組">喜樂小組</option>
+                                <option value="美女小組">美女小組</option>
+                                <option value="牛棚小組">牛棚小組</option>
+                                <option value="以勒小組">以勒小組</option>
+                                <option value="佳美小組">佳美小組</option>
+                                <option value="約書亞小組">約書亞小組</option>
+                                <option value="保羅小組">保羅小組</option>
+                                <option value="盛愛小組">盛愛小組</option>
+                                <option value="帝寶小組">帝寶小組</option>
+                                <option value="凡恩小組">凡恩小組</option>
+                                <option value="1+7小組">1+7小組</option>
+                                <option value="國高組">國高組</option>
+                                <option value="大專組">大專組</option>
+                                <option value="成人英文查經班">成人英文查經班</option>
+                                <option value="上恩小組">上恩小組</option>
+                                <option value="國高中組">國高中組</option>
+                                <option value="自由區">自由區</option>
+                                <option value="牧者">牧者</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <!--姓名-->
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label><span class="title">姓名</span><span class="text-primary">*(請填您的姓名)</span></label>
+                            <input type="text" class="form-control" name="entry.1695079590" id="1695079590"
+                                maxlength="6" />
+                        </div>
+                    </div>
+
+                    <!--大人人數-->
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label>大人人數<span class="text-danger">*</span></label>
+                            <select name="entry.291641778" id="291641778" value="" class="form-control" size="1">
+
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <!--小孩人數-->
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label>小孩人數(國小六年級以下)<span class="text-danger">*</span></label>
+                            <select name="entry.1976601811" id="1976601811" value="" class="form-control" size="1">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label class="control-label">備註</label>
+                            <textarea class="form-control" rows="2" name="entry.1500756317" id="1500756317"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="text-center pb-3">
+                    <button type="submit" class="btn btn-primary">送出</button>
+
+                </div>
+
+            </form>
+        </div>
+
+        <!--表單標題結束-->
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+
+
+        <!-- 表單驗證 -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+
+        <script>
+            $(function () {
+                $("#myForm").validate({
+                    submitHandler: function (form) {
+                        form.submit();
+                    },
+                    rules: {
+                        'entry.2145471606': {
+                            required: true
+                        },
+                        'entry.1695079590': {
+                            required: true,
+
+
+
+
+
+                        }
+                    },
+
+
+                    messages: {
+                        'entry.2145471606': {
+                            required: "必填"
+                        },
+                        'entry.1695079590': {
+                            required: "必填"
+
+                        }
+                    }
+                });
+
+            });
+
+        </script>
+
+</body>
+
+</html>
